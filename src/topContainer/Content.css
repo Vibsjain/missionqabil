@@ -1,0 +1,34 @@
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+#top-content {
+  height: 95vh;
+  margin: 0;
+  background: url('../images/learning.jpg');
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  animation: animatedBackground 180s linear infinite alternate;
+  /* background-size: auto 100%; */
+}
+
+#hovering-row {
+  padding-top: 70vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.hover-p {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #777;
+}
+
+.hover-p:hover {
+  color: #fff;
+}
