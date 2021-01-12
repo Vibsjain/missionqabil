@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .card {
@@ -20,7 +21,9 @@ h1 {
 }
 
 .team {
-  background-color: black;
+  background-image: url("../images/background1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   padding: 20px 0px;
 }
 
@@ -58,6 +61,7 @@ h1 {
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.9;
+  cursor: arrow;
 }
 
 .card img{
