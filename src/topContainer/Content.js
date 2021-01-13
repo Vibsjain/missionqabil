@@ -15,7 +15,7 @@ const content = () => {
   return (
     <div id="top-content">
       <div id='top-header'>
-        <h1>Mission Qabil</h1>
+        <h1>Missi<span className="o">o</span>n <span className="o">Q</span>abil</h1>
       </div>
 
       <div id='hovering-row' className='row'>

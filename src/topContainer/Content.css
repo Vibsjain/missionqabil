@@ -20,7 +20,6 @@ body {
   background-position: 0px 0px;
   background-repeat: no-repeat;
 
-  animation: animatedBackground 60s linear infinite alternate;
   -webkit-transition: background 1s;
   -moz-transition: background 1s;
   -o-transition: background 1s;
@@ -28,7 +27,7 @@ body {
   /* background-size: auto 100%; */
 
   animation: animatedBackground 180s linear infinite alternate;
-  background-size: 100% 100%;
+  /* background-size: 100% 100%; */
 
 }
 
@@ -39,12 +38,13 @@ body {
 }
 
 #top-header h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   font-family: 'Fraunces', serif;
+  color: white;
 }
 
 #hovering-row {
-  padding-top: 30vh;
+  padding-top: 10vh;
   padding-left: 10vw;
   padding-right: 10vw;
 }
@@ -57,4 +57,8 @@ body {
 
 .hover-p:hover {
   color: #fff;
+}
+
+.o{
+  color: gold;
 }

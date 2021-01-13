@@ -3,7 +3,7 @@ import "./middle2.css";
 
 const work = () => {
     return (
-        <h1 text-dark>How we work?</h1>
+        <h1 style={{color: "black"}}>OUR MISSION</h1>
     )
 }
 

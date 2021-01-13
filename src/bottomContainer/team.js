@@ -21,8 +21,8 @@ const ourTeam = () => {
         <div className="card" style={{ width: "17rem" }}>
           <img src={motu} className="card-img-top" />
           <div>
-            <h4>Name</h4>
-            <p>Description</p>
+            <h4>Motu Bhaiya</h4>
+            <p style={{textAlign: "center"}}>Motu Bhaiya is very intelligent. His weakness is samosa. He can not live without patlu as well.</p>
           </div>
         </div>
         <div className="card" style={{ width: "17rem" }}>
