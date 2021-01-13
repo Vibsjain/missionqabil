@@ -3,7 +3,7 @@ import "./footer.css";
 
 const footer = () => {
   return (
-    <div className="bg-dark">
+    <div id="footer" className="bg-dark">
       <div className="contact-upper">
         <div className="left">
           <ul>

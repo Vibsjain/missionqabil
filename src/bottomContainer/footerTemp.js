@@ -4,7 +4,7 @@ import "./footerTemp.css";
 
 const footer = () => {
   return (
-    <footer className="site-footer">
+    <footer id="footer" className="site-footer">
       <div className="row">
           <div className="col col-md-1">
           </div>
@@ -15,7 +15,7 @@ const footer = () => {
               <input className="form-control mb-2" style={{width: "25vw"}} type="email" placeholder="Email" />
               <input className="form-control mb-2" style={{width: "25vw"}} type="pupose" placeholder="Purpose" />
               <textarea className="form-control mb-2" style={{width: "25vw"}} type="text" placeholder="Message" />
-              <button className="btn btn-primary">Send</button>
+              <button className="btn btn-outline-light">Send</button>
             </form>
           </div>
 
@@ -48,14 +48,7 @@ const footer = () => {
       <hr />
       <div className="container">
         <div className="row">
-          <div className="col-md-8 col-sm-6 col-xs-12">
-            <p className="copyright-text">
-              Copyright &copy; 2017 All Rights Reserved by
-              <a href="#">Scanfcode</a>.
-            </p>
-          </div>
-
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-md-4 col-sm-12">
             <ul className="social-icons">
               <li>
                 <a className="facebook" href="#">
