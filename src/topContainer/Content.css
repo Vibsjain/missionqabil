@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap');
+
 @keyframes animatedBackground {
   from {
     background-position: 0 0;
@@ -7,18 +9,37 @@
   }
 }
 
+body {
+  overflow-x: hidden;
+}
+
 #top-content {
   height: 95vh;
   margin: 0;
   background: url('../images/learning.jpg');
   background-position: 0px 0px;
   background-repeat: no-repeat;
-  animation: animatedBackground 180s linear infinite alternate;
+  animation: animatedBackground 60s linear infinite alternate;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
   /* background-size: auto 100%; */
 }
 
+#top-header {
+  padding-top: 30vh;
+  text-align: center;
+  color: white;
+}
+
+#top-header h1 {
+  font-size: 4rem;
+  font-family: 'Fraunces', serif;
+}
+
 #hovering-row {
-  padding-top: 70vh;
+  padding-top: 30vh;
   padding-left: 10vw;
   padding-right: 10vw;
 }
