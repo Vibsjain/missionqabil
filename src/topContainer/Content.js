@@ -9,6 +9,7 @@ const content = () => {
     let images = [learningImage, communityImage, analyticsImage];
     const topContent = document.getElementById('top-content');
     topContent.style.background = "url(\'" + images[num] + "\')"
+    // topContent.style.backgroundSize = "100% 100%"
   }
 
   return (

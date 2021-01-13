@@ -1,0 +1,11 @@
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+li{
+    list-style: none;
+}

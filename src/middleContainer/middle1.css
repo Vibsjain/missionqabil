@@ -1,0 +1,30 @@
+.definition{
+    background-image: url("../images/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 800px;
+    text-align: center;
+}
+
+.head{
+    margin: 0 0 30px 0;
+}
+
+.video{
+    width: 495px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.def-para{
+    margin-bottom: 40px;
+    font-size: 40;
+}
