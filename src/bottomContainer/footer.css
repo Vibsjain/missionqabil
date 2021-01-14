@@ -1,11 +1,27 @@
-.contact{
+.contact-upper{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
     color: white;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 3px;
 }
 
 li{
     list-style: none;
+}
+
+.left{
+    text-align: left;
+}
+
+.contact-lower{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact{
+    height: 400px;
 }
