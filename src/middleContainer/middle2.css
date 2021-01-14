@@ -1,0 +1,24 @@
+#middle2 {
+  background-color: #111;
+  padding: 30px;
+}
+
+#middle2 h1 {
+  margin-bottom: 60px;
+}
+
+#middle2 span {
+  border-bottom: 1px solid gold;
+}
+
+#middle2 div {
+  color: white;
+}
+
+#middle2 li {
+  margin: 20px;
+}
+
+#middle2 i {
+  color: gold;
+}
