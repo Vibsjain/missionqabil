@@ -15,16 +15,16 @@ const ourTeam = () => {
   return (
     <div className="team">
       <div data-aos="fade-up">
-        <h1>Our Team</h1>
+        <h1><span className="o">O</span>UR <span className="o">T</span>EAM</h1>
         <div className="team-display">
-          <div className="card" style={{ width: "17rem" }}>
+          <div className="card card-team" style={{ width: "17rem" }}>
             <img src={motu} className="card-img-top" />
             <div>
               <h4>Name</h4>
               <p>Description</p>
             </div>
           </div>
-          <div className="card" style={{ width: "17rem" }}>
+          <div className="card card-team" style={{ width: "17rem" }}>
             <img src={motu} className="card-img-top" />
             <div>
               <h4>Motu Bhaiya</h4>
@@ -34,7 +34,7 @@ const ourTeam = () => {
               </p>
             </div>
           </div>
-          <div className="card" style={{ width: "17rem" }}>
+          <div className="card card-team" style={{ width: "17rem" }}>
             <img src={motu} className="card-img-top" />
             <div>
               <h4>Name</h4>
