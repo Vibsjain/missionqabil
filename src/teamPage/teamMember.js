@@ -18,6 +18,7 @@ import garvit from "../teamImage/garvit.jpeg";
 import puneet from "../teamImage/puneet.jpeg";
 import ridham from "../teamImage/ridham.jpeg";
 import vanshika from "../teamImage/vanshika.jpeg";
+import vikash from "../teamImage/vikash.jpeg";
 import aditya from "../teamImage/aditya.png";
 
 const member = () => {
@@ -103,8 +104,8 @@ const member = () => {
                     <p className="text-white name">Ridham Jain</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={motu} />
-                    <p className="text-white name">Rahul Mahar</p>
+                    <img className="img-member" src={vikash} />
+                    <p className="text-white name">Vikash</p>
                 </div> 
             </div>
         </div>
