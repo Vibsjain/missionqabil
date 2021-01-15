@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital@1&display=swap');
+
 .teamDesc{
     margin: 0;
     padding: 20px;
@@ -5,3 +7,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.display-2{
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+  }

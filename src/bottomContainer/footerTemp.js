@@ -58,11 +58,6 @@ const footer = () => {
                 </a>
               </li>
               <li>
-                <a className="twitter" href="#">
-                  <i className="fab fa-facebook-square"></i>
-                </a>
-              </li>
-              <li>
                 <a className="dribbble" href="https://www.linkedin.com/company/mission-qabil/" target="_blank">
                   <i className="fab fa-linkedin"></i>
                 </a>

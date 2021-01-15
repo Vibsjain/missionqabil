@@ -5,7 +5,6 @@ import Member from './teamMember';
 import Volunteer from './teamVolunteer';
 
 
-
 const teamDetail = () => {
     return(
         <div className="teamDesc">

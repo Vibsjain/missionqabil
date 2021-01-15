@@ -18,27 +18,22 @@ const lead = () => {
                 <div className="leadMember">
                     <img data-aos="flip-up" className="img-lead" src={motu} />
                     <p className="text-white name">Rahul Mahar</p>
-                    <p className="text-white position">Position</p>
                 </div>
                 <div className="leadMember">
                     <img data-aos="flip-up" className="img-lead" src={motu} />
                     <p className="text-white name">Siddharth Singh</p>
-                    <p className="text-white position">Position</p>
                 </div>
                 <div className="leadMember">
                     <img data-aos="flip-up" className="img-lead" src={diazy} />
                     <p className="text-white name">Daizy Mehta</p>
-                    <p className="text-white position">Founder</p>
                 </div>
                 <div className="leadMember">
                     <img data-aos="flip-up" className="img-lead" src={anima} />
                     <p className="text-white name">Anima Jain</p>
-                    <p className="text-white position">Position</p>
                 </div>
                 <div className="leadMember">
                     <img data-aos="flip-up" className="img-lead" src={motu} />
                     <p className="text-white name">Abhishek Midha</p>
-                    <p className="text-white position">Position</p>
                 </div>
             </div>
         </div>
