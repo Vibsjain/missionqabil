@@ -14,7 +14,6 @@ const App = () => {
             <Content />
             <Definition />
             <Work />
-            <Team />
             <Footer />
         </div>
         )

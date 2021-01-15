@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./footerTemp.css";
 
@@ -23,7 +24,8 @@ const footer = () => {
             <h6>Our Chapters</h6>
             <ul className="footer-links">
               <li>
-                <a href="#">Delhi Technological University</a>
+                <a href="http://dtu.ac.in/" target="_blank">Delhi Technological University</a>
+                <p>Many more coming soon...</p>
               </li>
             </ul>
           </div>
@@ -51,7 +53,7 @@ const footer = () => {
           <div className="col-md-4 col-sm-12">
             <ul className="social-icons">
               <li>
-                <a className="facebook" href="#">
+                <a className="facebook" href="https://www.instagram.com/missionqabil/" target="_blank">
                   <i className="fab fa-instagram-square"></i>
                 </a>
               </li>
@@ -61,7 +63,7 @@ const footer = () => {
                 </a>
               </li>
               <li>
-                <a className="dribbble" href="#">
+                <a className="dribbble" href="https://www.linkedin.com/company/mission-qabil/" target="_blank">
                   <i className="fab fa-linkedin"></i>
                 </a>
               </li>
