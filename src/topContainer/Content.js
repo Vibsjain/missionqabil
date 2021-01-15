@@ -24,21 +24,21 @@ const content = () => {
         <div className='col-4'>
           <p className='hover-p' onMouseEnter={() => changeBackground(0)}>
             <h5>Learning</h5>
-            <p>Blah Blah Blah</p>
+            <p className="small-p">This phase is crucial as it involves rigorous training sessions. Students will be allotted homework by their respective mentors regularly. The team will work strenuously, improving the technical skills of the individual student.</p>
           </p>
         </div>
 
         <div className='col-4'>
           <p className='hover-p' onMouseEnter={() => changeBackground(1)}>
             <h5>Community</h5>
-            <p>Blah Blah Blah</p>
+            <p className="small-p">We will build an online and offline community for the differently-abled. The students will receive One-on-One mentorship to resolve their problems concerning personal and academics.</p>
           </p>
         </div>
 
         <div className='col-4'>
           <p className='hover-p' onMouseEnter={() => changeBackground(2)}>
             <h5>Analytics</h5>
-            <p>Blah Blah Blah</p>
+            <p className="small-p">The analytics team will analyze the performance based on the pace at which a particular student completes his/her task and will design their task accordingly. This will reduce stress and will help students to grow at their own pace to achieve better results.</p>
           </p>
         </div>
       </div>

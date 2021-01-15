@@ -70,3 +70,9 @@ body {
 .o{
   color: #f3a94e;
 }
+
+.small-p {
+  font-size: 1rem;
+  padding: 15px;
+  text-align: justify;
+}
