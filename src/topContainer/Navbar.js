@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css"
 // import { Navbar, Nav } from "react-bootstrap";
 
@@ -13,8 +14,9 @@ const navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
-                        <a className="nav-link" href="#">About Us</a>
+                        <a className="nav-link" href="#definition">About Us</a>
                         <a className="nav-link" href="#footer">Contact Us</a>
+                        <Link className="nav-link" to="/team">Our Team</Link>
                     </div>
                 </div>
             </div>

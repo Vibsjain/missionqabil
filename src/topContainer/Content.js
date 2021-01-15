@@ -3,6 +3,7 @@ import './Content.css';
 import learningImage from '../images/learning.jpg'
 import communityImage from '../images/community.jpg'
 import analyticsImage from '../images/analytics.jpg'
+import logo from '../images/logo.png';
 
 const content = () => {
   const changeBackground = (num) => {
@@ -15,6 +16,7 @@ const content = () => {
   return (
     <div id="top-content">
       <div id='top-header'>
+        <img className="logo" src={logo} />
         <h1>Missi<span className="o">o</span>n <span className="o">Q</span>abil</h1>
       </div>
 

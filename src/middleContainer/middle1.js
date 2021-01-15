@@ -3,9 +3,9 @@ import "./middle1.css";
 
 const definition = () => {
   return (
-    <div className="definition">
+    <div id="definition" className="definition">
       <div className="container">
-        <h1 className="text-white head">What is Mission Qabil?</h1>
+        <h1 className="text-white head">What is Missi<span className="o">o</span>n <span className="o">Q</span>abil?</h1>
         <p style={{fontSize: "20px"}} className="text-white def-para">
           Mission Qabil is an initiative of Delhi Technological University where
           we have planned to teach specially abled people so that they can stand

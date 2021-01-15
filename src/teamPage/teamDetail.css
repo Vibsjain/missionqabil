@@ -1,0 +1,7 @@
+.teamDesc{
+    margin: 0;
+    padding: 20px;
+    background-image: url(../images/teambg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

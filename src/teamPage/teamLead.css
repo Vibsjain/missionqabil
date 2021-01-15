@@ -1,0 +1,33 @@
+.teamLeads{
+    margin-top: 30px;
+}
+
+.leadMembers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 3px;
+}
+
+.leadMember{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-lead{
+    border-radius: 50%;
+    border: 4px solid #f3a94e;
+    width:200px;
+    height: 200px;
+}
+
+.name{
+    font-size: 40px;
+    margin: 0;
+}
+
+.position{
+    font-size: 30px;
+}

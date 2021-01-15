@@ -13,6 +13,12 @@ body {
   overflow-x: hidden;
 }
 
+.logo{
+  width: 400px;
+  height: 300px;
+  margin-top: 0;
+}
+
 #top-content {
   height: 95vh;
   margin: 0;
@@ -31,8 +37,9 @@ body {
 
 }
 
+
 #top-header {
-  padding-top: 30vh;
+  padding-top: 20px;
   text-align: center;
   color: white;
 }
@@ -41,6 +48,7 @@ body {
   font-size: 6rem;
   font-family: 'Fraunces', serif;
   color: white;
+  margin: 0;
 }
 
 #hovering-row {
@@ -60,7 +68,7 @@ body {
 }
 
 .o{
-  color: gold;
+  color: #f3a94e;
 }
 
 .small-p {
