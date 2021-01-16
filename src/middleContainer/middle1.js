@@ -15,8 +15,8 @@ const definition = () => {
         <iframe
           className="video"
           id = "video"
-          src="https://www.youtube.com/embed/_aE-1oGvfNg?rel=0?version=3&autoplay=1&mute=1&loop=1" allowfullscreen="allowfullscreen"
-          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          src="https://www.youtube.com/embed/_aE-1oGvfNg?rel=0?version=3&loop=1" allowfullscreen="allowfullscreen"
+          frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         ></iframe>
       </div>
     </div>
