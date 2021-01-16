@@ -18,11 +18,15 @@ const navbar = ({history}) => (
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div className="navbar-nav">
+                    <div id='navbar-mid' className="navbar-nav">
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                         <a  className="nav-link" href="#definition">About Us</a>
                         <a  className="nav-link" href="#footer">Contact Us</a>
                         <Link className="nav-link" to="/team">Our Team</Link>
+                    </div>
+                    <div id="signup-login" className="navbar-nav">
+                      <a className="nav-link" href="#"><i class="fas fa-user-lock"></i> Login</a>
+                      <a className="nav-link" href="#"><i class="fas fa-user-plus"></i> Signup</a>
                     </div>
                 </div>
             </div>

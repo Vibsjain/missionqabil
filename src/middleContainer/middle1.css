@@ -2,16 +2,15 @@
     background-image: url("../images/background3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding: 20px 0px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .container{
-    width: 800px;
+    width: 70%;
     text-align: center;
 }
 
@@ -20,12 +19,18 @@
 }
 
 .video{
-    width: 495px;
-    height: 280px;
+    width: 80%;
+    height: 500px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .def-para{
     margin-bottom: 40px;
     font-size: 40;
+}
+
+#main-p {
+  text-align: justify;
+  font-size: 20px;
 }

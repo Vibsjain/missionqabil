@@ -2,10 +2,14 @@
   background-color: black;
 }
 
-.navbar-nav{
+#navbar-mid{
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
+}
+
+#signup-login {
+  float: right;
 }
 
 .nav-link{
