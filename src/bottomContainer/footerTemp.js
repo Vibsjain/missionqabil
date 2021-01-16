@@ -44,6 +44,11 @@ const footer = () => {
                   LinkedIn
                 </a>
               </li>
+              <li>
+                <a href="https://youtu.be/7LqrCzObDos" target="_blank">
+                  YouTube
+                </a>
+              </li>
             </ul>
         </div>
       </div>
@@ -53,13 +58,18 @@ const footer = () => {
           <div className="col-md-7 col-sm-12">
             <ul className="social-icons">
               <li>
-                <a className="facebook" href="https://www.instagram.com/missionqabil/" target="_blank">
+                <a className="instagram" href="https://www.instagram.com/missionqabil/" target="_blank">
                   <i className="fab fa-instagram-square"></i>
                 </a>
               </li>
               <li>
-                <a className="dribbble" href="https://www.linkedin.com/company/mission-qabil/" target="_blank">
+                <a className="linkedIn" href="https://www.linkedin.com/company/mission-qabil/" target="_blank">
                   <i className="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a className="youTube" href="https://youtu.be/7LqrCzObDos" target="_blank">
+                  <i className="fab fa-youtube"></i>
                 </a>
               </li>
             </ul>
