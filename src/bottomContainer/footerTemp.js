@@ -34,14 +34,14 @@ const footer = () => {
             <h6>Quick Links</h6>
             <ul className="footer-links">
               <li>
-                <a href="http://scanfcode.com/about/">About Us</a>
+                <a href="#definition">About Us</a>
               </li>
               <li>
-                <a href="http://scanfcode.com/contact/">Contribute Us</a>
+                <a href="https://www.instagram.com/missionqabil/" target="_blank">Instagram</a>
               </li>
               <li>
-                <a href="http://scanfcode.com/contribute-at-scanfcode/">
-                  Join Us
+                <a href="https://www.linkedin.com/company/mission-qabil/" target="_blank">
+                  LinkedIn
                 </a>
               </li>
             </ul>
@@ -50,7 +50,7 @@ const footer = () => {
       <hr />
       <div className="container">
         <div className="row">
-          <div className="col-md-4 col-sm-12">
+          <div className="col-md-7 col-sm-12">
             <ul className="social-icons">
               <li>
                 <a className="facebook" href="https://www.instagram.com/missionqabil/" target="_blank">
