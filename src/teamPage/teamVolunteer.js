@@ -14,6 +14,7 @@ import anushka from "../teamImage/anushka.jpeg";
 import anuj from "../teamImage/anuj.jpeg";
 import parth from "../teamImage/parth.jpeg";
 import rishabh from "../teamImage/rishabh.jpg";
+import umang from "../teamImage/umang.jpeg";
 
 const volunteer = () => {
 
@@ -52,8 +53,8 @@ const volunteer = () => {
             </div>
             <div data-aos="fade-up" className="volunteers">
                 <div className="volunteer">
-                    <img data-aos="flip-up" className="img-volunteer" src={motu} />
-                    <p className="text-white name">Rahul Mahar</p>
+                    <img data-aos="flip-up" className="img-volunteer" src={umang} />
+                    <p className="text-white name">Umang Chauhan</p>
                 </div>
                 <div className="volunteer">
                     <img data-aos="flip-up" className="img-volunteer" src={akshat} />

@@ -36,8 +36,8 @@ const member = () => {
                     <p className="text-white name">Karan Bajaj</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={aditya} />
-                    <p className="text-white name">Aaditya Narayan Subedy</p>
+                    <img className="img-member" src={puneet} />
+                    <p className="text-white name">Puneet Sehrawat</p>
                 </div>
                 <div className="Member">
                     <img className="img-member" src={sameer} />
@@ -48,12 +48,12 @@ const member = () => {
                     <p className="text-white name">Riya Dev Varshney</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={kartik} />
-                    <p className="text-white name">Kartik Tomar</p>
+                    <img className="img-member" src={garvit} />
+                    <p className="text-white name">Garvit Gulati</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={amogh} />
-                    <p className="text-white name">Amogh Jalan</p>
+                    <img className="img-member" src={ridham} />
+                    <p className="text-white name">Ridham Jain</p>
                 </div> 
             </div>
             <div data-aos="fade-up" className="Members">
@@ -88,20 +88,20 @@ const member = () => {
                     <p className="text-white name">Vanshika Gupta</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={puneet} />
-                    <p className="text-white name">Puneet Sehrawat</p>
+                    <img className="img-member" src={aditya} />
+                    <p className="text-white name">Aaditya Narayan Subedy</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={garvit} />
-                    <p className="text-white name">Garvit Gulati</p>
+                    <img className="img-member" src={kartik} />
+                    <p className="text-white name">Kartik Tomar</p>
                 </div>
                 <div className="Member">
                     <img className="img-member" src={himanshu} />
                     <p className="text-white name">Himanshu Yadav</p>
                 </div>
                 <div className="Member">
-                    <img className="img-member" src={ridham} />
-                    <p className="text-white name">Ridham Jain</p>
+                    <img className="img-member" src={amogh} />
+                    <p className="text-white name">Amogh Jalan</p>
                 </div>
                 <div className="Member">
                     <img className="img-member" src={vikash} />
