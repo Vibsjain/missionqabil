@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+Open [http://mission-qabil.herokuapp.com/](http://mission-qabil.herokuapp.com/) to view it online
+
 In the project directory, you can run:
 
 ### `npm start`
